@@ -14,6 +14,7 @@
 		C6BB1CDB1DC58B8100916943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BB1CD91DC58B8100916943 /* LaunchScreen.storyboard */; };
 		C6BB1CE61DC58B8100916943 /* AudioDirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB1CE51DC58B8100916943 /* AudioDirectionTests.swift */; };
 		C6BB1CF11DC58B8100916943 /* AudioDirectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB1CF01DC58B8100916943 /* AudioDirectionUITests.swift */; };
+		C6BB1CFF1DC58EB500916943 /* AudioDirectionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB1CFE1DC58EB500916943 /* AudioDirectionDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C6BB1CEC1DC58B8100916943 /* AudioDirectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioDirectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BB1CF01DC58B8100916943 /* AudioDirectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDirectionUITests.swift; sourceTree = "<group>"; };
 		C6BB1CF21DC58B8100916943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BB1CFE1DC58EB500916943 /* AudioDirectionDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDirectionDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C6BB1CD71DC58B8100916943 /* Assets.xcassets */,
 				C6BB1CD91DC58B8100916943 /* LaunchScreen.storyboard */,
 				C6BB1CDC1DC58B8100916943 /* Info.plist */,
+				C6BB1CFE1DC58EB500916943 /* AudioDirectionDetector.swift */,
 			);
 			path = AudioDirection;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				C6BB1CD31DC58B8100916943 /* ViewController.swift in Sources */,
 				C6BB1CD11DC58B8100916943 /* AppDelegate.swift in Sources */,
+				C6BB1CFF1DC58EB500916943 /* AudioDirectionDetector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				C6BB1CF71DC58B8100916943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6BB1CF81DC58B8100916943 /* Build configuration list for PBXNativeTarget "AudioDirectionTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				C6BB1CFA1DC58B8100916943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6BB1CFB1DC58B8100916943 /* Build configuration list for PBXNativeTarget "AudioDirectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				C6BB1CFD1DC58B8100916943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
